@@ -9,7 +9,7 @@ import json
 # Print arguments passed to the script
 print("Arguments passed:", sys.argv)
 print("Starting analysis script")
-
+ 
 # Verify Environment Variable
 if "AIPROXY_TOKEN" not in os.environ:
     print("Error: AIPROXY_TOKEN environment variable is not set.")
