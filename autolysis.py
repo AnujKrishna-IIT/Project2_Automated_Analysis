@@ -1,14 +1,14 @@
 # requires-python = ">=3.12"
-# dependencies = [
-#     "ipykernel>=6.29.5",
-#     "matplotlib>=3.9.3",
-#     "numpy>=2.2.0",
-#     "openai>=1.57.1",
-#     "pandas>=2.2.3",
-#     "python-dotenv>=1.0.1",
-#     "requests>=2.32.3",
-#     "seaborn>=0.13.2",
-# ]
+dependencies = [
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.9.3",
+    "numpy>=2.2.0",
+    "openai>=1.57.1",
+    "pandas>=2.2.3",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+    "seaborn>=0.13.2",
+]
 # [project.optional-dependencies]
 # pandas-dependencies = [
 #     "pandas>=2.2.3",
@@ -22,21 +22,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import requests
 import json
-import subprocess
 
-dependencies = [
-    "ipykernel>=6.29.5",
-    "matplotlib>=3.9.3",
-    "numpy>=2.2.0",
-    "openai>=1.57.1",
-    "pandas>=2.2.3",
-    "python-dotenv>=1.0.1",
-    "requests>=2.32.3",
-    "seaborn>=0.13.2",
-]
-
-for package in dependencies:
-    subprocess.check_call(["pip", "install", package])
 
 # Print arguments passed to the script
 print("Arguments passed:", sys.argv)
