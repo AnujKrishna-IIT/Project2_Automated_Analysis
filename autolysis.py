@@ -6,6 +6,7 @@
 #   "matplotlib",
 #   "httpx",
 #   "chardet",
+#   "requests",
 #   "numpy",
 # ]
 # ///
