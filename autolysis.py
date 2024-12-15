@@ -1,4 +1,4 @@
-# requires-python = ">=3.12"
+requires_python = ">=3.12"
 dependencies = [
     "ipykernel>=6.29.5",
     "matplotlib>=3.9.3",
